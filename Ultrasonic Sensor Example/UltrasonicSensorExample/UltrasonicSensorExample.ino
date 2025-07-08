@@ -9,7 +9,7 @@ const int yellowPin = 10;  // Pin for yellow LED
 const int greenPin = 11;   // Pin for green LED
 const int bluePin = 12;    // Pin for blue LED
 
-// Variables for storing distance and LED color
+// Variables for storing distance and duration
 long duration, distance;
 
 void setup() {
