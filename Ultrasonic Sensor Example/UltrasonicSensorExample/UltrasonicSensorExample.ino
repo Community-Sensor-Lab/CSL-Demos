@@ -2,12 +2,12 @@
 // https://content.instructables.com/FRW/614F/H994I1VE/FRW614FH994I1VE.txt?_gl=1*k5ec1d*_ga*MTQwNjkxNTA0MC4xNzE5ODYyNDA1*_ga_NZSJ72N6RX*czE3NTA3NzkzOTYkbzQkZzEkdDE3NTA3NzkzOTYkajYwJGwwJGgw
 
 // Pin assignments
-const int trigPin = 20;    // Pin for sending trigger signal
-const int echoPin = 21;    // Pin for receiving echo signal
-const int redPin = 6;      // Pin for red LED
-const int yellowPin = 10;  // Pin for yellow LED
-const int greenPin = 11;   // Pin for green LED
-const int bluePin = 12;    // Pin for blue LED
+const int trigPin = 5;    // Pin for sending trigger signal
+const int echoPin = 6;    // Pin for receiving echo signal
+const int redPin = 10;      // Pin for red LED
+const int yellowPin = 11;  // Pin for yellow LED
+const int greenPin = 12;   // Pin for green LED
+const int bluePin = 13;    // Pin for blue LED
 
 // Variables for storing distance and duration
 long duration, distance;
